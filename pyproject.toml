@@ -1,5 +1,5 @@
 [project]
-name = "windows-mcp"
+name = "windows-mcp-server"
 version = "0.1.0"
 description = "Lightweight MCP Server for interacting with Windows Operating System."
 authors = [
@@ -7,7 +7,7 @@ authors = [
 ]
 readme = "README.md"
 license = { file = "LICENSE" }
-urls = { homepage = "https://github.com/CursorTouch" }
+urls = { homepage = "https://github.com/danielsimonjr/Windows-MCP" }
 keywords = ["windows", "mcp", "ai", "desktop","ai agent"]
 requires-python = ">=3.13"
 dependencies = [

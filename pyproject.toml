@@ -1,6 +1,6 @@
 [project]
 name = "windows-mcp-server"
-version = "0.1.0"
+version = "0.1.1"
 description = "Lightweight MCP Server for interacting with Windows Operating System."
 authors = [
     { name = "Jeomon George", email = "jeogeoalukka@gmail.com" }
@@ -14,7 +14,6 @@ dependencies = [
     "fastmcp>=2.8.1",
     "fuzzywuzzy>=0.18.0",
     "humancursor>=1.1.5",
-    "live-inspect>=0.1.1",
     "markdownify>=1.1.0",
     "pillow>=11.2.1",
     "pyautogui>=0.9.54",

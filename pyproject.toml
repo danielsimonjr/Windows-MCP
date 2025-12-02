@@ -1,6 +1,6 @@
 [project]
 name = "windows-mcp-server"
-version = "0.1.1"
+version = "0.1.2"
 description = "Lightweight MCP Server for interacting with Windows Operating System."
 authors = [
     { name = "Jeomon George", email = "jeogeoalukka@gmail.com" }
@@ -24,7 +24,7 @@ dependencies = [
 ]
 
 [project.scripts]
-windows-mcp = "__main__:main"
+windows-mcp = "windows_mcp_entry:main"
 
 [build-system]
 requires = ["setuptools>=61.0", "wheel"]
@@ -32,4 +32,4 @@ build-backend = "setuptools.build_meta"
 
 [tool.setuptools]
 packages = ["src", "src.desktop", "src.tree"]
-py-modules = ["main"]
+py-modules = ["main", "windows_mcp_entry"]

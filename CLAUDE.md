@@ -6,7 +6,7 @@ This file provides guidance to Claude Code (claude.ai/code) when working with co
 
 Windows-MCP is a lightweight, open-source MCP (Model Context Protocol) server that enables AI agents to interact directly with the Windows operating system. It provides tools for UI automation, desktop interaction, application control, and system operations through a11y (accessibility) tree traversal.
 
-**Version**: 0.1.3 | **Platform**: Windows 7-11 only | **Python**: 3.13+ | **Entry Point**: `main.py`
+**Version**: 0.1.4 | **Platform**: Windows 7-11 only | **Python**: 3.13+ | **Entry Point**: `main.py`
 
 ## Project Structure
 
@@ -429,6 +429,7 @@ For distributing the package:
 
 | Version | Date | Changes |
 |---------|------|---------|
+| 0.1.4 | 2025-12-08 | Security hardening: SSRF protection, FAILSAFE enabled, input validation |
 | 0.1.3 | 2025-12-02 | Fix State-Tool return type (returns string, not list) when use_vision=False |
 | 0.1.2 | 2025-12-02 | Fix ImportError in console script entry point (created windows_mcp_entry.py) |
 | 0.1.1 | 2025-12-01 | Remove live-inspect dependency |

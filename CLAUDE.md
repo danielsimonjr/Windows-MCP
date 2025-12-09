@@ -444,5 +444,7 @@ For distributing the package:
 ```bash
 # Publish new version to PyPI
 python -m build
-python -m twine upload dist/windows_mcp_server-<version>*
+python -m twine upload --username __token__ --password "$(cat C:/mcp-servers/PyPi_key.txt | tail -1 | cut -d: -f2)" dist/windows_mcp_server-<version>*
 ```
+
+**Note**: PyPI API token is stored in `C:/mcp-servers/PyPi_key.txt`
